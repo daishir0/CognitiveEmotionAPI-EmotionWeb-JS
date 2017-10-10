@@ -5,7 +5,7 @@
     <title>Emotion API Sample</title>
     <link rel="stylesheet" href="css/site.css">
     <script src="scripts/jquery-3.1.0.min.js"></script>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/script.php"></script>
 </head>
 <body>
     <div>
