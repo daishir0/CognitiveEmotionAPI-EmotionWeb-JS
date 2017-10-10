@@ -1,3 +1,6 @@
+<?php
+$key = getenv('YOUR_SUBSCRIPTION_KEY');
+?>
 
 $(function () {
 
@@ -14,7 +17,7 @@ $(function () {
 
         // Emotion API の Subscription Key をセット
         // お持ちの Subscription Key をコピーしてください
-        var subscriptionKey = "<?php getenv('YOUR_SUBSCRIPTION_KEY') ?>";
+        var subscriptionKey = "<?php echo $key; ?>";
 
         // 画像 URL をセット
         var imageUrl = $("#imageUrlTextbox").val();
